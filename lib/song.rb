@@ -14,7 +14,7 @@ class Song
   end 
   
   def artist_name
-    song << self 
+    artist&.name 
   end 
   
   
