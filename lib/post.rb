@@ -4,7 +4,9 @@ class Post
   
   def initialize(title)
     @title = title 
-    
-  end 
+    @@all << self 
+  end
+  
+  
   
 end 
