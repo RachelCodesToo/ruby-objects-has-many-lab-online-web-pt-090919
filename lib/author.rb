@@ -19,5 +19,6 @@ class Author
    post.author = self 
  end 
  
+ def 
   
 end 
