@@ -10,7 +10,8 @@ class Artist
       @@all
    end 
    
-   def songs
+   def songs 
+     
  
   
  end 
