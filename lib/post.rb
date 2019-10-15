@@ -7,6 +7,6 @@ class Post
     @@all << self 
   end
   
-  def self.all
+  def author_name 
   
 end 
