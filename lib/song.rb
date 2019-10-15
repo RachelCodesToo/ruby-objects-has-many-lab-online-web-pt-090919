@@ -1,9 +1,13 @@
 class Song 
   
-   @@all = []
+   @@songs = []
   
   def initialize(name)
     @name = name 
+  end
+
+  def self.add_song(song)
+    song << self 
   end 
   
   
