@@ -4,6 +4,7 @@ class Song
   
   def initialize(name)
     @name = name 
+    @@songs << song
   end
 
   def self.add_song(song)
